@@ -1,5 +1,81 @@
 @charset 'UTF-8';
 
+
+
+
+/* logo css */
+/*#logo { grid-area: l;}
+.swrap { grid-area: s;}
+nav { grid-area: n;}        
+#logo {
+    background: url(../images/logo.svg) no-repeat 0px 0px;
+    padding-left: 2.5em;
+    height: 90px;
+    color: #42b490;
+    padding-top: .5em;
+    margin-bottom: .5em;
+    line-height: 1;
+    text-align: left;
+    width: 100%;
+}
+#logo span {
+    font-weight: 300;
+    font-size: 1rem;
+    display: block;
+    padding-left: 6px;
+}
+@media screen and (min-width: 600px) {
+    
+    header#main {
+        grid-template-areas: 
+        "l n"
+        ". s"; 
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1em;
+    }
+    
+    #logo, nav {
+        width: auto;
+        margin-bottom: 0;
+    }
+    
+    nav {
+        text-align: inherit;
+    }
+    
+    nav li {
+        display: inline-block;
+        border: none!important;
+    }
+    
+    #intro {
+        border-top: solid 1px salmon;
+    }
+    
+    #intro h1 {
+        padding: 0 2em;
+    }
+    
+    #about h1  {
+        padding: 0 4em;
+    }
+    
+    section p {
+        padding: 1em 8em;
+        line-height: 1.6;
+    }
+    
+    #services ul {
+        margin: 1.5em 8em 2em;
+    }
+}*/
+/* logo css */
+
+
+
+
+
 @font-face {
     font-family: 'et-book';
     src: url('../fonts/etbookot-roman-webfont.woff2') format('woff2'),
@@ -43,8 +119,6 @@ html {
     }
 }
 body {
-    background-color: white;
-    color: black;
     font-family: 'et-book', Georgia, serif;
     font-weight: normal;
     font-variant-ligatures: common-ligatures;
@@ -328,7 +402,9 @@ header {
     display: block;
     padding: 1em;
     background-color: rgba(95,121,149,1);
+/*
     color: white;
+*/
 }
 @media print {
     header {
@@ -511,6 +587,7 @@ footer {
     display: block;
     background-color: black;
     color: white;
+    color: rgba(95,121,149,0.2);
     padding: 1em;
 }
 footer > p {
